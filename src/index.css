@@ -1,0 +1,35 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --green: #05be12;
+  --red: #c8001c;
+  --gray: #f0f0f0;
+  --blue: #3497da;
+  --primary-violet: #6a41bd;
+  --secondary-violet: #814ee6;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family:  'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  background-color: var(--gray);
+}
+h1, h2 {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+main {
+  padding: 2rem;
+}
+section {
+  padding: 2rem 0;
+}
